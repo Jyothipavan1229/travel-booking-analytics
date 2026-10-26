@@ -45,6 +45,7 @@ The synthetic travel-booking dataset contains 1,000 booking records, distributed
 The synthetic travel-booking dataset contains 1,000 bookings across 8 destinations.
 
 | Destination | Number of Bookings | Percentage |
+|---|---:|---:|
 | Paris | 143 | 14.3% |
 | Dubai | 142 | 14.2% |
 | Rome | 133 | 13.3% |
@@ -64,6 +65,7 @@ The synthetic travel-booking dataset contains 1,000 bookings across 8 destinatio
 The dataset contains bookings from three different channels.
 
 | Booking Channel | Number of Bookings | Percentage |
+|---|---:|---:|
 | Mobile App | 356 | 35.6% |
 | Travel Agent | 340 | 34.0% |
 | Website | 304 | 30.4% |
@@ -92,6 +94,7 @@ Booking volume was analyzed using the `booking_date` column. The dataset covers 
 Booking prices were analyzed to understand their central tendency, range, and distribution.
 
 | Price Metric | Value |
+|---|---:|
 | Mean Booking Price | $991.28 |
 | Median Booking Price | $785.17 |
 | Minimum Booking Price | $180.97 |
@@ -104,7 +107,6 @@ Booking prices were analyzed to understand their central tendency, range, and di
 The middle 50% of booking prices fell between $382.09 and $1,498.23.
 
 **Business Interpretation:** Booking price analysis can help travel companies understand pricing variation, develop price-based customer segments, and support revenue reporting. However, the observed price distribution comes from synthetic data and should not be treated as representative of real travel-market prices.
-
 ## 5. Limitations
 
 - All booking records are synthetic.
