@@ -10,9 +10,9 @@ booking volume, and booking-price distribution.
 
 ## 2. Dataset Description
 
-- Records analyzed: [insert total]
-- Unique customers: [insert total]
-- Destinations represented: [insert total]
+- Records analyzed: 1000
+- Unique customers: 289
+- Destinations represented: 8
 - Data period: January 2024–December 2025 booking dates
 - Source: Synthetic data generated for this portfolio project
 
