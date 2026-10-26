@@ -76,8 +76,6 @@ The dataset is synthetic and was created for portfolio demonstration purposes. R
 
 ## Future Improvements
 
-- Complete and include the Power BI dashboard.
-- Add a dashboard screenshot to the README.
 - Expand the analysis with additional business KPIs.
 - Improve documentation of the SQL results and business recommendations.
 
