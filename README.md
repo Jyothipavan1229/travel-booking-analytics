@@ -50,6 +50,16 @@ See [`reports/analysis_findings.md`](reports/analysis_findings.md) for the Pytho
 
 The findings should be interpreted as patterns within a synthetic dataset, not as evidence of real-world travel market behavior.
 
+## Key Business Insights
+
+Analysis of 1,000 synthetic travel bookings from January 2024 to December 2025 produced the following findings:
+
+- **Booking Status:** 57.0% of bookings were confirmed, 22.5% were completed, and 20.5% were cancelled.
+- **Most Frequent Destination:** Paris recorded the highest number of bookings (143), representing 14.3% of the dataset, closely followed by Dubai (142).
+- **Leading Booking Channel:** Mobile App accounted for the largest share of bookings (35.6%), followed by Travel Agent (34.0%) and Website (30.4%).
+- **Monthly Booking Trends:** April 2024 recorded the highest booking volume (52). January 2024 and November 2025 had the lowest volumes (31 each).
+- **Booking Price Analysis:** The average booking price was $991.28, compared with a median of $785.17, suggesting that higher-priced bookings pull the average upward.
+
 ## How to Run
 
 1. Clone this repository.
