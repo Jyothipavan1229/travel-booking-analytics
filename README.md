@@ -63,6 +63,13 @@ The findings should be interpreted as patterns within a synthetic dataset, not a
 
 Use the filenames in the repository as the source of truth for the exact execution order.
 
+
+## Power BI Dashboard
+
+![Travel Booking Analytics Dashboard](images/powerbi_dashboard.png)
+
+
+
 ## Limitations
 
 The dataset is synthetic and was created for portfolio demonstration purposes. Results do not represent actual customer behavior, and booking prices should not be interpreted as verified business revenue.
