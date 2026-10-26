@@ -30,29 +30,80 @@ from the original data.
 
 ### Booking Status
 
-[Insert the counts and percentages from the status summary.
-Describe the distribution without claiming it represents
-real-world cancellation behavior.]
+The synthetic travel-booking dataset contains 1,000 booking records, distributed across three booking statuses:
+
+- **Confirmed:** 570 bookings (57.0%)
+- **Completed:** 225 bookings (22.5%)
+- **Cancelled:** 205 bookings (20.5%)
+
+**Key Finding:** Confirmed bookings represent the largest proportion of records at 57.0%, followed by completed bookings at 22.5% and cancelled bookings at 20.5%.
+
+**Business Interpretation:** Booking status distribution is useful for monitoring booking outcomes and identifying records requiring further investigation. However, because this dataset is synthetically generated, these percentages should not be interpreted as real-world customer cancellation or completion behavior.
 
 ### Destination Distribution
 
-[Identify the most frequently recorded destination and its
-percentage of all booking records.]
+The synthetic travel-booking dataset contains 1,000 bookings across 8 destinations.
+
+| Destination | Number of Bookings | Percentage |
+| Paris | 143 | 14.3% |
+| Dubai | 142 | 14.2% |
+| Rome | 133 | 13.3% |
+| Singapore | 121 | 12.1% |
+| New York | 119 | 11.9% |
+| Sydney | 118 | 11.8% |
+| London | 115 | 11.5% |
+| Tokyo | 109 | 10.9% |
+| **Total** | **1,000** | **100.0%** |
+
+**Key Finding:** Paris was the most frequently recorded destination, with 143 bookings (14.3%), followed closely by Dubai with 142 bookings (14.2%). Tokyo had the lowest booking count, with 109 bookings (10.9%).
+
+**Business Interpretation:** Destination distribution analysis can help travel companies identify popular destinations and plan marketing activities. However, the differences in this synthetic dataset should not be interpreted as evidence of real-world travel preferences.
 
 ### Booking Channels
 
-[Compare the record counts and percentages across channels.
-Do not describe these as conversion rates.]
+The dataset contains bookings from three different channels.
+
+| Booking Channel | Number of Bookings | Percentage |
+| Mobile App | 356 | 35.6% |
+| Travel Agent | 340 | 34.0% |
+| Website | 304 | 30.4% |
+| **Total** | **1,000** | **100.0%** |
+
+**Key Finding:** Mobile App accounted for the largest proportion of bookings at 35.6%, followed by Travel Agent at 34.0% and Website at 30.4%.
+
+**Business Interpretation:** Booking channel analysis can help businesses understand how recorded bookings are distributed across platforms and intermediaries. These percentages represent shares of bookings, not conversion rates, because the dataset does not include visitor counts or booking attempts.
 
 ### Monthly Booking Volume
 
-[Report the highest- and lowest-volume months and their counts.
-Explain that random generation may account for the variation.]
+Booking volume was analyzed using the `booking_date` column. The dataset covers January 2024 through December 2025.
+
+| Metric | Month | Number of Bookings |
+|---|---|---:|
+| Highest booking volume | April 2024 | 52 |
+| Lowest booking volume (tie) | January 2024 | 31 |
+| Lowest booking volume (tie) | November 2025 | 31 |
+
+**Key Finding:** April 2024 recorded the highest booking volume with 52 bookings. January 2024 and November 2025 tied for the lowest booking volume, with 31 bookings each. The difference between the highest and lowest monthly counts was 21 bookings.
+
+**Business Interpretation:** Monthly booking analysis can help businesses monitor demand fluctuations, identify potential seasonal patterns, and plan staffing or marketing activities. Because this dataset was randomly generated, these differences may reflect the data-generation process rather than genuine seasonal travel demand.
 
 ### Booking Prices
 
-[Report the median and mean, and briefly describe the
-distribution shown in the price histogram.]
+Booking prices were analyzed to understand their central tendency, range, and distribution.
+
+| Price Metric | Value |
+| Mean Booking Price | $991.28 |
+| Median Booking Price | $785.17 |
+| Minimum Booking Price | $180.97 |
+| Maximum Booking Price | $2,698.19 |
+| 25th Percentile | $382.09 |
+| 75th Percentile | $1,498.23 |
+
+**Key Finding:** The average booking price was $991.28, while the median was $785.17. The mean was approximately $206.11 higher than the median, suggesting that relatively high-priced bookings pull the average upward. This is consistent with a potentially right-skewed price distribution, although the histogram should be inspected to confirm its shape.
+
+The middle 50% of booking prices fell between $382.09 and $1,498.23.
+
+**Business Interpretation:** Booking price analysis can help travel companies understand pricing variation, develop price-based customer segments, and support revenue reporting. However, the observed price distribution comes from synthetic data and should not be treated as representative of real travel-market prices.
 
 ## 5. Limitations
 
